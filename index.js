@@ -18,3 +18,5 @@ res.send("<h1>Request received!</h1><h2>Welcome from home.</h2>");
 app.get("/home", (req, res) => {
 res.sendFile(path.join(import.meta.dirname,"public/hw3", "index.html"));
 });
+
+//mayne i should have added a gitignore for node modules?
